@@ -1,0 +1,1002 @@
+[
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the powerhouse of the cell?",
+    "ground_truth": "The mitochondria is the powerhouse of the cell. It generates most of the cell's ATP energy.",
+    "generated_answer": "The mitochondria is the powerhouse of the cell, responsible for generating energy through cellular respiration.",
+    "faithfulness": 0.44799999999999995,
+    "answer_relevancy": 0.7777777777777777,
+    "hallucination": 0.9027777777777778,
+    "latency_ms": 3467.022180557251
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "When did World War II end?",
+    "ground_truth": "World War II ended in 1945. In Europe it ended on May 8, 1945 (V-E Day), and in the Pacific on September 2, 1945 when Japan surrendered.",
+    "generated_answer": "World War II ended on September 2, 1945, with the formal surrender of Japan.",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.875,
+    "hallucination": 0.5166666666666666,
+    "latency_ms": 693.964958190918
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What causes the seasons on Earth?",
+    "ground_truth": "Seasons are caused by Earth's axial tilt of 23.5 degrees, not its distance from the sun.",
+    "generated_answer": "The seasons on Earth are caused by the tilt of the planet's axis (about 23.5\u00b0) as it orbits the sun. This tilt results in varying amounts of sunlight reaching the Earth's surface throughout the year, leading to changes in temperature and weather patterns.",
+    "faithfulness": 0.3783783783783784,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 1.0,
+    "latency_ms": 1523.4968662261963
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of AI where systems learn from data and experience without being explicitly programmed.",
+    "generated_answer": "Machine learning (ML) is a subset of artificial intelligence that enables computers to learn from data, identify patterns, and make predictions or decisions without being explicitly programmed.",
+    "faithfulness": 0.9624999999999999,
+    "answer_relevancy": 0.4117647058823529,
+    "hallucination": 0.7191176470588235,
+    "latency_ms": 960.6971740722656
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "How does photosynthesis work?",
+    "ground_truth": "Photosynthesis converts light energy into chemical energy (glucose) using CO2, water, and sunlight. It occurs in chloroplasts.",
+    "generated_answer": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose. The equation for photosynthesis is:\n\n6 CO2 + 6 H2O + light energy \u2192 C6H12O6 (glucose) + 6 O2\n\nIn simple terms, plants use sunlight to convert carbon dioxide and water into glucose and oxygen through a series of chemical reactions involving chlorophyll and other pigments.",
+    "faithfulness": 0.9333333333333332,
+    "answer_relevancy": 0.11290322580645161,
+    "hallucination": 0.9966666666666666,
+    "latency_ms": 2551.2728691101074
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the speed of light?",
+    "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+    "generated_answer": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s) or 186,282 miles per second.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.875,
+    "hallucination": 0.3333333333333333,
+    "latency_ms": 926.8872737884521
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "Who invented the telephone?",
+    "ground_truth": "Alexander Graham Bell invented the telephone and received the patent on March 7, 1876.",
+    "generated_answer": "Alexander Graham Bell is credited with inventing the first practical telephone in 1876.",
+    "faithfulness": 0.5185185185185185,
+    "answer_relevancy": 0.38888888888888884,
+    "hallucination": 0.6333333333333333,
+    "latency_ms": 581.6099643707275
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is DNA?",
+    "ground_truth": "DNA (deoxyribonucleic acid) is a double-helix molecule made of four bases (A, G, C, T) that carries genetic instructions.",
+    "generated_answer": "DNA (Deoxyribonucleic acid) is a molecule that contains the genetic instructions used in the development and function of all living organisms. It's often referred to as the \"building blocks of life\" because it carries the unique characteristics and traits of an individual organism.",
+    "faithfulness": 0.5478260869565217,
+    "answer_relevancy": 0.14583333333333331,
+    "hallucination": 1.0,
+    "latency_ms": 1507.7288150787354
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the capital of Australia?",
+    "ground_truth": "The capital of Australia is Canberra, not Sydney or Melbourne.",
+    "generated_answer": "The capital of Australia is Canberra.",
+    "faithfulness": 0.35,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.05,
+    "latency_ms": 335.9947204589844
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "How does the immune system fight viruses?",
+    "ground_truth": "The immune system fights viruses via innate (immediate, non-specific) and adaptive (specific) responses. B cells make antibodies, T cells destroy infected cells.",
+    "generated_answer": "The immune system fights viruses through several mechanisms:\n\n1. Innate immunity: Physical barriers (e.g., skin, mucous membranes) and cells (e.g., neutrophils, macrophages) that recognize and destroy viral particles.\n2. Adaptive immunity: Activation of T-cells (CD4+ and CD8+) and B-cells to recognize specific viral antigens, producing antibodies and immune responses.\n3. Interferons: Proteins released by infected cells to signal neighboring cells to increase production of antiviral proteins.\n4. Cytokines: Signaling molecules that coordinate the immune response, recruiting immune cells to the site of infection.\n\nThese mechanisms work together to neutralize or eliminate viral particles and prevent further replication.",
+    "faithfulness": 0.4732394366197183,
+    "answer_relevancy": 0.19811320754716982,
+    "hallucination": 1.0,
+    "latency_ms": 3802.766799926758
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is blockchain technology?",
+    "ground_truth": "Blockchain is a distributed ledger where data is stored in linked blocks secured by cryptographic hashes, making records tamper-resistant.",
+    "generated_answer": "Blockchain technology is a decentralized, digital ledger that records transactions across a network of computers in a secure and transparent manner. It uses cryptography to verify and validate data, creating an immutable record of all transactions made on the network.",
+    "faithfulness": 0.5333333333333332,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 1.0,
+    "latency_ms": 1234.7698211669922
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What causes earthquakes?",
+    "ground_truth": "Earthquakes are caused by the sudden release of energy along fault lines where tectonic plates meet, creating seismic waves.",
+    "generated_answer": "Earthquakes are caused by the movement of tectonic plates in the Earth's lithosphere, which is broken into several large and small plates that float on the more fluid asthenosphere below. As these plates move past each other, they can get stuck at their boundaries, causing stress to build up. When the stress becomes too great, the plates will suddenly move, releasing energy as seismic waves, resulting in an earthquake.",
+    "faithfulness": 0.5403508771929824,
+    "answer_relevancy": 0.0945945945945946,
+    "hallucination": 1.0,
+    "latency_ms": 2309.748888015747
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the water cycle?",
+    "ground_truth": "The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and collection.",
+    "generated_answer": "The water cycle, also known as the hydrologic cycle, is the continuous process by which water moves between the Earth's oceans, atmosphere, and land. It involves evaporation, condensation, precipitation, runoff, and infiltration, with water constantly being cycled back to the oceans.",
+    "faithfulness": 0.5463414634146341,
+    "answer_relevancy": 0.3333333333333333,
+    "hallucination": 1.0,
+    "latency_ms": 1548.222303390503
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the difference between RAM and storage?",
+    "ground_truth": "RAM is fast short-term memory for active tasks that clears when powered off. Storage is permanent long-term memory for files.",
+    "generated_answer": "RAM (Random Access Memory) temporarily stores data that's currently being used by the computer, while storage (such as hard drives or solid-state drives) holds long-term data that's not actively in use.",
+    "faithfulness": 0.751219512195122,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 0.95,
+    "latency_ms": 1169.2571640014648
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "How do vaccines work?",
+    "ground_truth": "Vaccines train the immune system by exposing it to harmless versions of a pathogen, prompting memory cell creation for future protection.",
+    "generated_answer": "Vaccines work by introducing a small, harmless piece of a pathogen (such as a virus or bacteria) to the body. This triggers an immune response, allowing the body to recognize and remember the pathogen, and producing antibodies that can fight it if it enters the body again in the future.",
+    "faithfulness": 0.4666666666666666,
+    "answer_relevancy": 0.30434782608695654,
+    "hallucination": 1.0,
+    "latency_ms": 1652.0600318908691
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is gravity?",
+    "ground_truth": "Gravity is the fundamental force attracting objects with mass toward each other, described by Newton as proportional to mass and by Einstein as spacetime curvature.",
+    "generated_answer": "Gravity is a fundamental force of nature that attracts two objects with mass towards each other, keeping them bound to the Earth and governing the motion of celestial bodies.",
+    "faithfulness": 0.8324324324324325,
+    "answer_relevancy": 0.18421052631578946,
+    "hallucination": 0.831140350877193,
+    "latency_ms": 923.1297969818115
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is inflation in economics?",
+    "ground_truth": "Inflation is the rate of price increases over time, measured by CPI, which erodes purchasing power. Central banks control it via interest rates.",
+    "generated_answer": "Inflation is a sustained increase in the general price level of goods and services in an economy over time. It's measured as an annual percentage increase in prices, indicating that the same amount of money can buy fewer goods and services than it could before.",
+    "faithfulness": 0.7162790697674418,
+    "answer_relevancy": 0.15217391304347827,
+    "hallucination": 0.95,
+    "latency_ms": 1378.5390853881836
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is the greenhouse effect?",
+    "ground_truth": "The greenhouse effect is when greenhouse gases like CO2 trap heat from Earth's surface, warming the planet. Human activities have intensified this.",
+    "generated_answer": "The greenhouse effect is a natural process where certain gases in the Earth's atmosphere, such as carbon dioxide and water vapor, trap heat from the sun, keeping the planet warm enough to support life. This process occurs when these gases absorb infrared radiation emitted by the Earth's surface and release it back into the atmosphere, creating a warming effect.",
+    "faithfulness": 0.6285714285714286,
+    "answer_relevancy": 0.21212121212121213,
+    "hallucination": 1.0,
+    "latency_ms": 1797.7831363677979
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "How does the internet work?",
+    "ground_truth": "The internet connects computers globally via TCP/IP protocols. Data is sent as packets through routers. The Web is one service running on it using HTTP.",
+    "generated_answer": "The internet works by connecting devices through a network of servers, routers, and cables. Here's a simplified overview:\n\n1. Devices (computers, smartphones, etc.) send and receive data to/from servers using protocols like HTTP.\n2. Data is routed through the internet via undersea cables, fiber-optic cables, or wireless signals.\n3. Routers direct data packets between networks, ensuring they reach their destination.\n4. Servers store and manage data, while also providing services like email, social media, and online storage.\n\nThis complex network relies on a combination of technologies, including IP addresses, DNS (Domain Name System), and TCP/IP (Transmission Control Protocol/Internet Protocol).",
+    "faithfulness": 0.5316455696202531,
+    "answer_relevancy": 0.05737704918032787,
+    "hallucination": 1.0,
+    "latency_ms": 3501.1699199676514
+  },
+  {
+    "strategy": "Zero-shot (baseline)",
+    "question": "What is Newton's second law of motion?",
+    "ground_truth": "Newton's second law states F = ma: force equals mass times acceleration.",
+    "generated_answer": "Newton's second law of motion states that the force applied to an object is equal to its mass times its acceleration (F = ma).",
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.43333333333333335,
+    "latency_ms": 822.357177734375
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the powerhouse of the cell?",
+    "ground_truth": "The mitochondria is the powerhouse of the cell. It generates most of the cell's ATP energy.",
+    "generated_answer": "The answer to this question is:\n\nA: The mitochondria.",
+    "faithfulness": 0.12727272727272726,
+    "answer_relevancy": 0.0,
+    "hallucination": 1.0,
+    "latency_ms": 613.8269901275635
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "When did World War II end?",
+    "ground_truth": "World War II ended in 1945. In Europe it ended on May 8, 1945 (V-E Day), and in the Pacific on September 2, 1945 when Japan surrendered.",
+    "generated_answer": "I see what you're getting at! You want concise answers that are direct, clear, and to the point. Here's an example answer for your question about World War II:\n\nQ: When did World War II end?\nA: 1945.\n\nLet me know if this is what you had in mind!",
+    "faithfulness": 0.15999999999999998,
+    "answer_relevancy": 0.5526315789473684,
+    "hallucination": 1.0,
+    "latency_ms": 1704.67209815979
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What causes the seasons on Earth?",
+    "ground_truth": "Seasons are caused by Earth's axial tilt of 23.5 degrees, not its distance from the sun.",
+    "generated_answer": "The changing angle of the Sun's rays as the Earth orbits around it, combined with the tilt of its axis.",
+    "faithfulness": 0.41481481481481475,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 0.8666666666666666,
+    "latency_ms": 724.9598503112793
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of AI where systems learn from data and experience without being explicitly programmed.",
+    "generated_answer": "Machine learning is a type of artificial intelligence that enables computers to learn from data, make predictions, and improve their performance over time without being explicitly programmed.",
+    "faithfulness": 0.9333333333333332,
+    "answer_relevancy": 0.38888888888888884,
+    "hallucination": 0.7694444444444444,
+    "latency_ms": 894.881010055542
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "How does photosynthesis work?",
+    "ground_truth": "Photosynthesis converts light energy into chemical energy (glucose) using CO2, water, and sunlight. It occurs in chloroplasts.",
+    "generated_answer": "I'll provide a concise answer to your question about how photosynthesis works:\n\nA: Photosynthesis involves two stages: the light-dependent reaction and the light-independent reaction. In the light-dependent reaction, light energy is absorbed by pigments such as chlorophyll, exciting electrons that drive an electron transport chain. This produces ATP and NADPH. In the light-independent reaction (Calvin cycle), CO2 is fixed into organic compounds using the ATP and NADPH produced in the light-dependent reaction, resulting in glucose production.",
+    "faithfulness": 0.36296296296296293,
+    "answer_relevancy": 0.08750000000000001,
+    "hallucination": 1.0,
+    "latency_ms": 2719.7189331054688
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the speed of light?",
+    "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+    "generated_answer": "The speed of light is approximately 299,792 kilometers per second (km/s) or 186,282 miles per second (mi/s).",
+    "faithfulness": 0.7,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.5416666666666666,
+    "latency_ms": 872.4417686462402
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "Who invented the telephone?",
+    "ground_truth": "Alexander Graham Bell invented the telephone and received the patent on March 7, 1876.",
+    "generated_answer": "Alexander Graham Bell.",
+    "faithfulness": 0.35,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.025,
+    "latency_ms": 265.52486419677734
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is DNA?",
+    "ground_truth": "DNA (deoxyribonucleic acid) is a double-helix molecule made of four bases (A, G, C, T) that carries genetic instructions.",
+    "generated_answer": "I'd be happy to help you with a concise answer for what is DNA. Here it is:\n\nA: DNA (Deoxyribonucleic acid) is a molecule that contains the genetic instructions used in the development and function of all living organisms.",
+    "faithfulness": 0.5599999999999999,
+    "answer_relevancy": 0.20588235294117646,
+    "hallucination": 0.9911764705882352,
+    "latency_ms": 1405.0238132476807
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the capital of Australia?",
+    "ground_truth": "The capital of Australia is Canberra, not Sydney or Melbourne.",
+    "generated_answer": "The answer to your question about the capital of Australia would be:\n\nA: Canberra.",
+    "faithfulness": 0.31111111111111106,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.8166666666666667,
+    "latency_ms": 577.2972106933594
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "How does the immune system fight viruses?",
+    "ground_truth": "The immune system fights viruses via innate (immediate, non-specific) and adaptive (specific) responses. B cells make antibodies, T cells destroy infected cells.",
+    "generated_answer": "I'm ready to help. Go ahead and ask your question about how the immune system fights viruses, and I'll provide a concise answer.",
+    "faithfulness": 0.1333333333333333,
+    "answer_relevancy": 0.75,
+    "hallucination": 1.0,
+    "latency_ms": 849.8427867889404
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is blockchain technology?",
+    "ground_truth": "Blockchain is a distributed ledger where data is stored in linked blocks secured by cryptographic hashes, making records tamper-resistant.",
+    "generated_answer": "Blockchain technology is a decentralized, digital ledger that records transactions across a network of computers in a secure and transparent way.",
+    "faithfulness": 0.5764705882352941,
+    "answer_relevancy": 0.5384615384615385,
+    "hallucination": 0.8211538461538461,
+    "latency_ms": 726.203203201294
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What causes earthquakes?",
+    "ground_truth": "Earthquakes are caused by the sudden release of energy along fault lines where tectonic plates meet, creating seismic waves.",
+    "generated_answer": "Earthquakes are caused by the movement of tectonic plates in the Earth's crust, which releases energy as seismic waves.",
+    "faithfulness": 0.7411764705882352,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 0.41287878787878785,
+    "latency_ms": 797.3718643188477
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the water cycle?",
+    "ground_truth": "The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and collection.",
+    "generated_answer": "The water cycle, also known as the hydrologic cycle, is the continuous process by which water moves between the Earth's oceans, atmosphere, and land. It involves the movement of water in three phases: liquid, vapor, and ice, and is driven by solar energy and atmospheric conditions.",
+    "faithfulness": 0.43555555555555553,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 1.0,
+    "latency_ms": 1572.3309516906738
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the difference between RAM and storage?",
+    "ground_truth": "RAM is fast short-term memory for active tasks that clears when powered off. Storage is permanent long-term memory for files.",
+    "generated_answer": "RAM (Random Access Memory) temporarily stores data that's currently being used, while storage (such as hard drives or solid-state drives) holds long-term data.",
+    "faithfulness": 0.63,
+    "answer_relevancy": 0.3333333333333333,
+    "hallucination": 0.9285087719298245,
+    "latency_ms": 943.3012008666992
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "How do vaccines work?",
+    "ground_truth": "Vaccines train the immune system by exposing it to harmless versions of a pathogen, prompting memory cell creation for future protection.",
+    "generated_answer": "I'd be happy to help you with a concise answer for how vaccines work. Here it is:\n\nA: Vaccines work by introducing a small, harmless piece of a virus or bacteria (antigen) to the body, which triggers an immune response and helps the body produce antibodies to fight future infections.",
+    "faithfulness": 0.32941176470588235,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 1.0,
+    "latency_ms": 1649.1611003875732
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is gravity?",
+    "ground_truth": "Gravity is the fundamental force attracting objects with mass toward each other, described by Newton as proportional to mass and by Einstein as spacetime curvature.",
+    "generated_answer": "I'll complete the example for you:\n\nQ: What is gravity?\nA: Gravity is a natural force that attracts objects with mass towards each other, keeping planets in orbit and objects on the ground.",
+    "faithfulness": 0.5297297297297298,
+    "answer_relevancy": 0.23333333333333334,
+    "hallucination": 0.9966666666666666,
+    "latency_ms": 1138.3287906646729
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is inflation in economics?",
+    "ground_truth": "Inflation is the rate of price increases over time, measured by CPI, which erodes purchasing power. Central banks control it via interest rates.",
+    "generated_answer": "Inflation in economics refers to a sustained increase in the general price level of goods and services in an economy over time, resulting in a decrease in the purchasing power of money.",
+    "faithfulness": 0.7897435897435897,
+    "answer_relevancy": 0.38888888888888884,
+    "hallucination": 0.7944444444444444,
+    "latency_ms": 1028.1078815460205
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is the greenhouse effect?",
+    "ground_truth": "The greenhouse effect is when greenhouse gases like CO2 trap heat from Earth's surface, warming the planet. Human activities have intensified this.",
+    "generated_answer": "The greenhouse effect is a natural process that warms the Earth's surface, trapping heat from the sun in the atmosphere.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6363636363636364,
+    "hallucination": 0.29393939393939394,
+    "latency_ms": 757.0338249206543
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "How does the internet work?",
+    "ground_truth": "The internet connects computers globally via TCP/IP protocols. Data is sent as packets through routers. The Web is one service running on it using HTTP.",
+    "generated_answer": "I'll help you complete that example. Here's a concise answer to the question \"How does the internet work?\":\n\nA: The internet works by using a network of interconnected computers and servers to store and transmit data through a system of routers, switches, and fiber optic cables. When you request information or send data online, it is routed through these networks to reach its destination.",
+    "faithfulness": 0.3796610169491525,
+    "answer_relevancy": 0.21212121212121213,
+    "hallucination": 1.0,
+    "latency_ms": 2025.1247882843018
+  },
+  {
+    "strategy": "Few-shot examples",
+    "question": "What is Newton's second law of motion?",
+    "ground_truth": "Newton's second law states F = ma: force equals mass times acceleration.",
+    "generated_answer": "Newton's second law of motion states that the acceleration of an object is directly proportional to the force applied and inversely proportional to its mass. Mathematically, it can be expressed as F = ma, where F is the net force acting on an object, m is its mass, and a is its acceleration.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8235294117647058,
+    "hallucination": 0.41470588235294115,
+    "latency_ms": 1706.4611911773682
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the powerhouse of the cell?",
+    "ground_truth": "The mitochondria is the powerhouse of the cell. It generates most of the cell's ATP energy.",
+    "generated_answer": "The mitochondria.",
+    "faithfulness": 0.13999999999999999,
+    "answer_relevancy": 0.1,
+    "hallucination": 0.016666666666666666,
+    "latency_ms": 399.81794357299805
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "When did World War II end?",
+    "ground_truth": "World War II ended in 1945. In Europe it ended on May 8, 1945 (V-E Day), and in the Pacific on September 2, 1945 when Japan surrendered.",
+    "generated_answer": "World War II ended in two parts:\n\n1. In Europe: May 8, 1945 (V-E Day)\n2. In the Pacific: September 2, 1945",
+    "faithfulness": 0.9799999999999999,
+    "answer_relevancy": 0.7000000000000001,
+    "hallucination": 0.49444444444444435,
+    "latency_ms": 1224.0688800811768
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What causes the seasons on Earth?",
+    "ground_truth": "Seasons are caused by Earth's axial tilt of 23.5 degrees, not its distance from the sun.",
+    "generated_answer": "The tilt of Earth's axis relative to its orbital plane around the sun causes the seasons on Earth.",
+    "faithfulness": 0.9739130434782608,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.29,
+    "latency_ms": 783.318042755127
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of AI where systems learn from data and experience without being explicitly programmed.",
+    "generated_answer": "Machine learning is a branch of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed, focusing on developing computer programs that can access data and use it to learn for themselves.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3333333333333333,
+    "hallucination": 0.31666666666666665,
+    "latency_ms": 1245.978832244873
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "How does photosynthesis work?",
+    "ground_truth": "Photosynthesis converts light energy into chemical energy (glucose) using CO2, water, and sunlight. It occurs in chloroplasts.",
+    "generated_answer": "Photosynthesis works by absorbing sunlight using chlorophyll, which is then converted into chemical energy stored in glucose (C6H12O6).",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.2692307692307693,
+    "hallucination": 0.5,
+    "latency_ms": 1004.8661231994629
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the speed of light?",
+    "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+    "generated_answer": "299,792,458 meters per second.",
+    "faithfulness": 0.4666666666666666,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.03333333333333333,
+    "latency_ms": 518.4929370880127
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "Who invented the telephone?",
+    "ground_truth": "Alexander Graham Bell invented the telephone and received the patent on March 7, 1876.",
+    "generated_answer": "Alexander Graham Bell.",
+    "faithfulness": 0.35,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.025,
+    "latency_ms": 397.01008796691895
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is DNA?",
+    "ground_truth": "DNA (deoxyribonucleic acid) is a double-helix molecule made of four bases (A, G, C, T) that carries genetic instructions.",
+    "generated_answer": "DNA is a molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known organisms.",
+    "faithfulness": 0.9935483870967742,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 0.16666666666666666,
+    "latency_ms": 952.038049697876
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the capital of Australia?",
+    "ground_truth": "The capital of Australia is Canberra, not Sydney or Melbourne.",
+    "generated_answer": "Canberra.",
+    "faithfulness": 0.11666666666666665,
+    "answer_relevancy": 0.1,
+    "hallucination": 0.008333333333333333,
+    "latency_ms": 370.96595764160156
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "How does the immune system fight viruses?",
+    "ground_truth": "The immune system fights viruses via innate (immediate, non-specific) and adaptive (specific) responses. B cells make antibodies, T cells destroy infected cells.",
+    "generated_answer": "The immune system fights viruses in two ways:\n\n1. The innate immune response provides immediate non-specific defense, triggering inflammation.\n2. The adaptive immune response is slower but more specific:\n   - B cells produce antibodies that neutralize the virus\n   - T cells destroy infected cells\n   - Memory cells are created so future responses are faster.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.35000000000000003,
+    "hallucination": 0.25,
+    "latency_ms": 1958.400011062622
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is blockchain technology?",
+    "ground_truth": "Blockchain is a distributed ledger where data is stored in linked blocks secured by cryptographic hashes, making records tamper-resistant.",
+    "generated_answer": "A distributed digital ledger that records transactions across many computers so that records cannot be altered retroactively.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.14166666666666666,
+    "latency_ms": 762.6290321350098
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What causes earthquakes?",
+    "ground_truth": "Earthquakes are caused by the sudden release of energy along fault lines where tectonic plates meet, creating seismic waves.",
+    "generated_answer": "The sudden release of energy in Earth's crust.",
+    "faithfulness": 0.4375,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.06666666666666667,
+    "latency_ms": 543.2381629943848
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the water cycle?",
+    "ground_truth": "The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and collection.",
+    "generated_answer": "The water cycle describes the continuous movement of water on, above, and below Earth's surface.",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.7777777777777777,
+    "hallucination": 0.125,
+    "latency_ms": 762.7811431884766
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the difference between RAM and storage?",
+    "ground_truth": "RAM is fast short-term memory for active tasks that clears when powered off. Storage is permanent long-term memory for files.",
+    "generated_answer": "The main differences are:\n\n* Speed: RAM is fast, while storage is slower.\n* Data retention: RAM loses data when powered off, while storage keeps data permanently.",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.4117647058823529,
+    "hallucination": 0.7849999999999999,
+    "latency_ms": 1127.1398067474365
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "How do vaccines work?",
+    "ground_truth": "Vaccines train the immune system by exposing it to harmless versions of a pathogen, prompting memory cell creation for future protection.",
+    "generated_answer": "Vaccines work by training the immune system to recognize and fight specific pathogens. They contain weakened, killed, or partial versions of a virus or bacteria, or genetic instructions (mRNA) to make a recognizable protein. When the immune system encounters this, it creates memory cells so it can respond much faster if exposed to the real pathogen later.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.21212121212121213,
+    "hallucination": 0.25,
+    "latency_ms": 2008.058786392212
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is gravity?",
+    "ground_truth": "Gravity is the fundamental force attracting objects with mass toward each other, described by Newton as proportional to mass and by Einstein as spacetime curvature.",
+    "generated_answer": "Gravity is a fundamental force of nature that attracts objects with mass toward each other.",
+    "faithfulness": 0.9655172413793104,
+    "answer_relevancy": 0.35000000000000003,
+    "hallucination": 0.125,
+    "latency_ms": 687.5431537628174
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is inflation in economics?",
+    "ground_truth": "Inflation is the rate of price increases over time, measured by CPI, which erodes purchasing power. Central banks control it via interest rates.",
+    "generated_answer": "Inflation is the rate at which the general level of prices for goods and services rises over time, eroding purchasing power.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.25,
+    "hallucination": 0.175,
+    "latency_ms": 908.2770347595215
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is the greenhouse effect?",
+    "ground_truth": "The greenhouse effect is when greenhouse gases like CO2 trap heat from Earth's surface, warming the planet. Human activities have intensified this.",
+    "generated_answer": "The greenhouse effect is a natural process that warms Earth's surface. Sunlight passes through the atmosphere and warms the ground. The ground then emits heat, which is absorbed by greenhouse gases like CO2, methane, and water vapor, trapping it in the atmosphere.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3333333333333333,
+    "hallucination": 0.25,
+    "latency_ms": 1616.5177822113037
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "How does the internet work?",
+    "ground_truth": "The internet connects computers globally via TCP/IP protocols. Data is sent as packets through routers. The Web is one service running on it using HTTP.",
+    "generated_answer": "The internet works by breaking data into small packets, sending them via routers across networks using the TCP/IP protocol suite, and receiving them at their destination device. Each device has an IP address that allows it to communicate with other devices on the network. The World Wide Web uses HTTP protocol to access websites.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.09999999999999999,
+    "hallucination": 0.7441176470588236,
+    "latency_ms": 1761.51704788208
+  },
+  {
+    "strategy": "RAG (context provided)",
+    "question": "What is Newton's second law of motion?",
+    "ground_truth": "Newton's second law states F = ma: force equals mass times acceleration.",
+    "generated_answer": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. It is expressed as the equation F = ma, where F is force in Newtons, m is mass in kilograms, and a is acceleration in meters per second squared.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.17500000000000002,
+    "hallucination": 0.25,
+    "latency_ms": 1687.3059272766113
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the powerhouse of the cell?",
+    "ground_truth": "The mitochondria is the powerhouse of the cell. It generates most of the cell's ATP energy.",
+    "generated_answer": "To determine what the \"powerhouse of the cell\" refers to, let's break down the information provided:\n\n1. The question asks for the term that describes the mitochondria as the source of energy in eukaryotic cells.\n2. It mentions that mitochondria generate most of the cell's supply of ATP (adenosine triphosphate), which is a molecule used as a source of chemical energy.\n\nGiven this information, we can conclude that the term \"powerhouse of the cell\" refers to the mitochondria because they are responsible for producing the majority of the cell's energy in the form of ATP.",
+    "faithfulness": 0.9058823529411765,
+    "answer_relevancy": 0.28,
+    "hallucination": 1.0,
+    "latency_ms": 3321.6748237609863
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "When did World War II end?",
+    "ground_truth": "World War II ended in 1945. In Europe it ended on May 8, 1945 (V-E Day), and in the Pacific on September 2, 1945 when Japan surrendered.",
+    "generated_answer": "To determine when World War II ended, we need to consider both the European and Pacific theaters of the war. \n\n1. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day).\n2. However, the war in the Pacific did not end immediately after V-E Day. Japan continued to fight until it formally surrendered.\n\n3. To find out when the war in the Pacific ended, we need to look for a specific date related to Japan's surrender.\n\n4. According to historical records, Japan formally surrendered aboard the USS Missouri on September 2, 1945.\n\nTherefore, considering both theaters of the war, World War II officially ended on September 2, 1945, when Japan formally surrendered.",
+    "faithfulness": 0.8521739130434782,
+    "answer_relevancy": 0.5384615384615385,
+    "hallucination": 0.75,
+    "latency_ms": 4283.203840255737
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What causes the seasons on Earth?",
+    "ground_truth": "Seasons are caused by Earth's axial tilt of 23.5 degrees, not its distance from the sun.",
+    "generated_answer": "To determine what causes the seasons on Earth, let's break down the information provided:\n\n1. The tilt of Earth's axis relative to its orbital plane around the sun is approximately 23.5 degrees.\n2. This tilt affects the amount of sunlight that reaches the Northern Hemisphere during different times of the year.\n\nNow, considering these points, we can conclude that the seasons on Earth are caused by the tilt of Earth's axis relative to its orbital plane around the sun.\n\nFinal answer: The tilt of Earth's axis relative to its orbital plane around the sun.",
+    "faithfulness": 0.8166666666666667,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 0.40499999999999997,
+    "latency_ms": 3059.1862201690674
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of AI where systems learn from data and experience without being explicitly programmed.",
+    "generated_answer": "To understand what machine learning is, let's break down the concept step by step:\n\n1. Machine learning is a branch of artificial intelligence.\n2. It enables systems to learn and improve from experience without being explicitly programmed.\n3. The process begins with observations or data to look for patterns.\n\nConsidering these steps, we can conclude that machine learning is a type of artificial intelligence that allows systems to automatically improve their performance by analyzing data and identifying patterns, without requiring explicit programming instructions.\n\nFinal answer: Machine learning is a type of artificial intelligence that enables systems to learn from experience and improve their performance through data analysis.",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.4375,
+    "hallucination": 0.7249999999999999,
+    "latency_ms": 3264.3001079559326
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "How does photosynthesis work?",
+    "ground_truth": "Photosynthesis converts light energy into chemical energy (glucose) using CO2, water, and sunlight. It occurs in chloroplasts.",
+    "generated_answer": "To understand how photosynthesis works, let's break it down into steps:\n\n1. **Light absorption**: Chlorophyll in the chloroplasts absorbs light energy from sunlight. This energy is used to power the photosynthetic process.\n\n2. **Water absorption**: Plants absorb water (H2O) through their roots and transport it to the chloroplasts, where it's used in photosynthesis.\n\n3. **Carbon dioxide absorption**: Plants absorb carbon dioxide (CO2) from the atmosphere through small openings on their leaves called stomata.\n\n4. **Light-dependent reactions**: The absorbed light energy excites electrons in the chlorophyll molecule, which are then transferred to a special molecule called ATP (adenosine triphosphate). This process generates ATP and another molecule called NADPH (nicotinamide adenine dinucleotide phosphate).\n\n5. **Calvin cycle**: The ATP and NADPH produced in the light-dependent reactions are used to convert CO2 into glucose (C",
+    "faithfulness": 0.454054054054054,
+    "answer_relevancy": 0.0,
+    "hallucination": 1.0,
+    "latency_ms": 5249.2640018463135
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the speed of light?",
+    "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+    "generated_answer": "To determine the speed of light, we are given that it is approximately 299,792,458 meters per second. This value can also be expressed as 3 \u00d7 10^8 m/s or 300,000 km/s.\n\nSince these values represent the same quantity, we can consider them equivalent for the purpose of answering the question.\n\nTherefore, the speed of light is approximately 299,792,458 meters per second.",
+    "faithfulness": 0.8842105263157893,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.29166666666666663,
+    "latency_ms": 2507.7288150787354
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "Who invented the telephone?",
+    "ground_truth": "Alexander Graham Bell invented the telephone and received the patent on March 7, 1876.",
+    "generated_answer": "To determine who invented the telephone, let's consider the information provided:\n\n1. Alexander Graham Bell was awarded the first patent for the telephone on March 7, 1876.\n2. He made the first successful telephone call on March 10, 1876, to his assistant Thomas Watson.\n\nWhile Elisha Gray also developed a similar device around the same time, there is no mention of him receiving a patent or making a successful call before Bell.\n\nTherefore, based on the information provided, Alexander Graham Bell is credited with inventing the telephone.",
+    "faithfulness": 0.3733333333333333,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 0.965,
+    "latency_ms": 3028.475284576416
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is DNA?",
+    "ground_truth": "DNA (deoxyribonucleic acid) is a double-helix molecule made of four bases (A, G, C, T) that carries genetic instructions.",
+    "generated_answer": "To determine what DNA is, let's break down the information provided:\n\n1. **Definition**: The question asks for a definition of DNA.\n2. **Key characteristics mentioned**:\n   - It carries genetic instructions.\n   - It has two strands that wind around each other to form a double helix.\n   - Each strand is made of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T).\n3. **Analysis**: The description provided aligns with the well-known structure and function of DNA in biology.\n\n**Conclusion**: Based on the information given, DNA can be described as a molecule that carries genetic instructions and is composed of two strands twisted together in a double helix structure, made up of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T).",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.10294117647058823,
+    "hallucination": 0.9088235294117647,
+    "latency_ms": 4927.797079086304
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the capital of Australia?",
+    "ground_truth": "The capital of Australia is Canberra, not Sydney or Melbourne.",
+    "generated_answer": "To determine the correct answer, let's break down the information provided:\n\n1. The question asks for the capital of Australia.\n2. It's mentioned that Canberra was purpose-built to serve as the nation's capital.\n3. There's also a note about Sydney and Melbourne being mistaken as the capital due to their size and prominence.\n\nConsidering these points, we can conclude that the correct answer is indeed Canberra, as it was specifically chosen and built as the capital of Australia.",
+    "faithfulness": 0.5444444444444444,
+    "answer_relevancy": 0.3684210526315789,
+    "hallucination": 1.0,
+    "latency_ms": 2623.2171058654785
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "How does the immune system fight viruses?",
+    "ground_truth": "The immune system fights viruses via innate (immediate, non-specific) and adaptive (specific) responses. B cells make antibodies, T cells destroy infected cells.",
+    "generated_answer": "To understand how the immune system fights viruses, let's break it down into steps:\n\n1. **Innate Immune Response**: The innate immune response provides immediate non-specific defense against viral infections. This includes triggering inflammation, which helps to isolate the infected area and limit the spread of the virus.\n\n2. **Activation of Adaptive Immunity**: Once the innate immune response is triggered, it activates the adaptive immune system. This involves the activation of various immune cells, including B cells and T cells.\n\n3. **Production of Antibodies (B Cells)**: Activated B cells produce antibodies that are specific to the virus. These antibodies bind to the surface of infected cells or viruses, neutralizing their ability to infect other cells.\n\n4. **Activation of Cytotoxic T Cells (T Cells)**: Activated T cells, specifically cytotoxic T cells, recognize and destroy infected cells. This helps to eliminate the source of the infection.\n\n5. **Creation of Memory Cells**: Both B cells and",
+    "faithfulness": 0.15135135135135136,
+    "answer_relevancy": 0.0,
+    "hallucination": 1.0,
+    "latency_ms": 5210.597276687622
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is blockchain technology?",
+    "ground_truth": "Blockchain is a distributed ledger where data is stored in linked blocks secured by cryptographic hashes, making records tamper-resistant.",
+    "generated_answer": "To determine what blockchain technology is, let's break it down:\n\n1. **Definition**: Blockchain is a distributed digital ledger.\n2. **Key characteristics**:\n   - Distributed: Records are stored across many computers.\n   - Digital: The ledger exists in a virtual format.\n   - Ledger: A record of transactions that cannot be altered retroactively.\n3. **Structure**: Each block contains transaction data, a timestamp, and a cryptographic hash of the previous block.\n\nConsidering these points, blockchain technology is essentially a decentralized, digital, and tamper-proof system for recording transactions across multiple computers in a chain-like structure.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.25925925925925924,
+    "hallucination": 0.8203703703703703,
+    "latency_ms": 3334.686279296875
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What causes earthquakes?",
+    "ground_truth": "Earthquakes are caused by the sudden release of energy along fault lines where tectonic plates meet, creating seismic waves.",
+    "generated_answer": "To determine what causes earthquakes, let's break down the process:\n\n1. Earthquakes occur along fault lines where tectonic plates meet.\n2. Stress builds up along these faults as the plates move past each other.\n3. When this stress is suddenly released, the ground shakes.\n\nBased on this reasoning, we can conclude that earthquakes are caused by the sudden release of energy in Earth's crust, specifically when stress builds up and is released along fault lines where tectonic plates meet.\n\nFinal answer: The sudden release of energy in Earth's crust, typically along fault lines where tectonic plates meet.",
+    "faithfulness": 0.8799999999999999,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.44999999999999996,
+    "latency_ms": 3333.9920043945312
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the water cycle?",
+    "ground_truth": "The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and collection.",
+    "generated_answer": "To determine what the water cycle is, let's break it down into its key processes:\n\n1. Evaporation: Water turns to vapor.\n2. Condensation: Vapor forms clouds.\n3. Precipitation: Rain or snow falls from the clouds.\n\nNow, considering these steps together, we can see that the water cycle involves the continuous movement of water in three main stages: evaporation, condensation, and precipitation. The process starts with evaporation, where water turns to vapor. This vapor then forms clouds through condensation. Finally, when the vapor becomes too heavy, it falls back to Earth as precipitation.\n\nTherefore, the water cycle is the continuous movement of water on, above, and below Earth's surface, involving the processes of evaporation, condensation, and precipitation.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5,
+    "hallucination": 0.4,
+    "latency_ms": 4211.19499206543
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the difference between RAM and storage?",
+    "ground_truth": "RAM is fast short-term memory for active tasks that clears when powered off. Storage is permanent long-term memory for files.",
+    "generated_answer": "To find the difference between RAM and storage, let's break it down:\n\n1. **Purpose**: RAM is used for short-term memory to store data actively being used by the computer, while storage (like SSD or HDD) is used for long-term memory to keep data permanently.\n\n2. **Speed**: RAM is fast because it allows quick access to data that the computer is currently using. Storage, on the other hand, can be slower since it needs time to read and write data.\n\n3. **Data Retention**: RAM loses its data when powered off, whereas storage keeps data even after the power is turned off.\n\n4. **Capacity**: More RAM means more tasks can be handled simultaneously, while more storage allows for more files to be saved.\n\nConsidering these points, the main differences between RAM and storage are:\n\n- **Purpose**: Short-term vs. long-term memory\n- **Speed**: Fast access for active use vs. slower access for permanent storage\n- **Data Retention**: Los",
+    "faithfulness": 0.5297297297297298,
+    "answer_relevancy": 0.20588235294117646,
+    "hallucination": 0.6583333333333333,
+    "latency_ms": 5331.321001052856
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "How do vaccines work?",
+    "ground_truth": "Vaccines train the immune system by exposing it to harmless versions of a pathogen, prompting memory cell creation for future protection.",
+    "generated_answer": "Here's a step-by-step explanation of how vaccines work:\n\n1. **Introduction of antigens**: Vaccines contain weakened, killed, or partial versions of a virus or bacteria (inactivated vaccines), or genetic instructions (mRNA) to make a recognizable protein (conjugate vaccines).\n2. **Recognition by immune cells**: When the vaccine is introduced into the body, immune cells such as dendritic cells and macrophages recognize the antigens.\n3. **Activation of immune response**: The recognized antigens trigger an immune response, which involves the activation of various immune cells, including T-cells and B-cells.\n4. **Production of antibodies**: Activated B-cells produce antibodies that specifically target the pathogen.\n5. **Creation of memory cells**: Both activated T-cells and B-cells differentiate into memory cells, which remember the specific pathogen.\n6. **Immune system priming**: The immune system is primed to recognize and respond more quickly to future encounters",
+    "faithfulness": 0.586046511627907,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.8394736842105263,
+    "latency_ms": 5304.309129714966
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is gravity?",
+    "ground_truth": "Gravity is the fundamental force attracting objects with mass toward each other, described by Newton as proportional to mass and by Einstein as spacetime curvature.",
+    "generated_answer": "To determine what gravity is, let's break down the information provided:\n\n1. **Definition**: Gravity is described as a fundamental force of nature that attracts objects with mass toward each other.\n2. **Effects on Objects**: On Earth, gravity gives weight to physical objects and causes them to fall when dropped.\n3. **Newton's Description**: Newton describes gravity as a force proportional to mass and inversely proportional to distance squared.\n4. **Einstein's Description**: Einstein later describes it as a curvature of spacetime.\n\nConsidering these points:\n\n- Both Newton and Einstein describe gravity in terms of its effects on objects, but they differ in their underlying mechanisms.\n- Newton's description focuses on the force aspect, while Einstein's description emphasizes the geometric aspect (curvature of spacetime).\n- Despite the differences, both descriptions agree that gravity is a fundamental force acting between masses.\n\nGiven this analysis, we can conclude:\n\n**Gravity is a fundamental force of nature that attracts objects with mass toward each other, described",
+    "faithfulness": 0.77,
+    "answer_relevancy": 0.1590909090909091,
+    "hallucination": 0.95,
+    "latency_ms": 5240.913867950439
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is inflation in economics?",
+    "ground_truth": "Inflation is the rate of price increases over time, measured by CPI, which erodes purchasing power. Central banks control it via interest rates.",
+    "generated_answer": "To understand what inflation is in economics, let's break it down:\n\n1. Inflation refers to the rate at which prices for goods and services are increasing over time.\n2. This increase in prices means that the same amount of money can buy fewer goods and services than it could before.\n3. As a result, the purchasing power of money decreases.\n\nIn other words, inflation is a sustained rise in the general price level of goods and services in an economy over time.\n\nFinal answer: Inflation is the rate at which prices for goods and services are increasing over time, eroding purchasing power.",
+    "faithfulness": 0.7999999999999999,
+    "answer_relevancy": 0.25,
+    "hallucination": 0.4897435897435898,
+    "latency_ms": 3278.3608436584473
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is the greenhouse effect?",
+    "ground_truth": "The greenhouse effect is when greenhouse gases like CO2 trap heat from Earth's surface, warming the planet. Human activities have intensified this.",
+    "generated_answer": "To understand what the greenhouse effect is, let's break down the process step by step:\n\n1. Sunlight enters Earth's atmosphere and warms the ground.\n2. The warmed ground emits heat into the atmosphere.\n3. Greenhouse gases like CO2, methane, and water vapor absorb this emitted heat.\n\nNow, considering these steps, we can conclude that the greenhouse effect is a natural process where sunlight heats the ground, which then emits heat that is absorbed by greenhouse gases in the atmosphere, trapping it and warming Earth's surface.\n\nFinal answer: The greenhouse effect is a natural process where sunlight heats the ground, which then emits heat that is absorbed by greenhouse gases in the atmosphere.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5,
+    "hallucination": 0.525,
+    "latency_ms": 3719.9079990386963
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "How does the internet work?",
+    "ground_truth": "The internet connects computers globally via TCP/IP protocols. Data is sent as packets through routers. The Web is one service running on it using HTTP.",
+    "generated_answer": "To understand how the internet works, let's break it down into steps:\n\n1. **Data Breakdown**: Data is divided into small packets, which are then formatted with headers and footers that contain control information.\n\n2. **Packet Transmission**: These packets are sent to a router, which forwards them to their next destination based on the packet's destination IP address.\n\n3. **Routing**: The packets travel through multiple routers, each of which examines the packet's header and forwards it to the next hop in the path until they reach their final destination.\n\n4. **TCP/IP Protocol Suite**: The internet uses the TCP/IP protocol suite to ensure reliable data transfer between devices. This includes features like error checking and correction, ensuring that packets are delivered correctly.\n\n5. **IP Addresses**: Each device on the internet has a unique IP address, which allows routers to direct packets to their correct destination.\n\n6. **HTTP Protocol for Web Services**: The World Wide Web uses HTTP protocol to transmit data between websites and",
+    "faithfulness": 0.8272727272727273,
+    "answer_relevancy": 0.14583333333333331,
+    "hallucination": 0.858695652173913,
+    "latency_ms": 5645.400047302246
+  },
+  {
+    "strategy": "Chain-of-thought",
+    "question": "What is Newton's second law of motion?",
+    "ground_truth": "Newton's second law states F = ma: force equals mass times acceleration.",
+    "generated_answer": "To determine what Newton's second law of motion states, let's break down the equation F = ma:\n\n1. The equation consists of three variables: force (F), mass (m), and acceleration (a).\n2. The variable \"force\" is directly proportional to the variable \"acceleration\".\n3. The variable \"mass\" is inversely proportional to the variable \"acceleration\".\n\nTherefore, Newton's second law of motion states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\nFinal answer: F = ma (Force equals mass times acceleration).",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7368421052631579,
+    "hallucination": 0.47105263157894733,
+    "latency_ms": 3679.255962371826
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the powerhouse of the cell?",
+    "ground_truth": "The mitochondria is the powerhouse of the cell. It generates most of the cell's ATP energy.",
+    "generated_answer": "The mitochondria are referred to as the powerhouse of the cell.",
+    "faithfulness": 0.5599999999999999,
+    "answer_relevancy": 1.0,
+    "hallucination": 0.09166666666666666,
+    "latency_ms": 885.4362964630127
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "When did World War II end?",
+    "ground_truth": "World War II ended in 1945. In Europe it ended on May 8, 1945 (V-E Day), and in the Pacific on September 2, 1945 when Japan surrendered.",
+    "generated_answer": "The war in Europe ended on May 8, 1945, known as Victory in Europe Day (V-E Day), while the war in the Pacific ended on September 2, 1945.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 0.38888888888888884,
+    "latency_ms": 1365.7920360565186
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What causes the seasons on Earth?",
+    "ground_truth": "Seasons are caused by Earth's axial tilt of 23.5 degrees, not its distance from the sun.",
+    "generated_answer": "Answer: The tilt of Earth's axis relative to its orbital plane around the sun causes the seasons on Earth.",
+    "faithfulness": 0.9333333333333332,
+    "answer_relevancy": 0.9545454545454545,
+    "hallucination": 0.41287878787878785,
+    "latency_ms": 903.2959938049316
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of AI where systems learn from data and experience without being explicitly programmed.",
+    "generated_answer": "Machine learning is a branch of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed, focusing on developing computer programs that can access data and use it to learn for themselves. It begins with observations or data to look for patterns.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.28,
+    "hallucination": 0.306,
+    "latency_ms": 1696.774959564209
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "How does photosynthesis work?",
+    "ground_truth": "Photosynthesis converts light energy into chemical energy (glucose) using CO2, water, and sunlight. It occurs in chloroplasts.",
+    "generated_answer": "Not found in context. The question asks for a detailed explanation of how photosynthesis works, but the provided context only gives a brief overview of what photosynthesis is and its overall equation.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.21875,
+    "hallucination": 0.0,
+    "latency_ms": 1413.2840633392334
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the speed of light?",
+    "ground_truth": "The speed of light in vacuum is approximately 299,792,458 meters per second (about 300,000 km/s).",
+    "generated_answer": "The speed of light is approximately 299,792,458 meters per second. It is denoted by the letter c and is a fundamental constant in physics.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6363636363636364,
+    "hallucination": 0.2,
+    "latency_ms": 1256.1559677124023
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "Who invented the telephone?",
+    "ground_truth": "Alexander Graham Bell invented the telephone and received the patent on March 7, 1876.",
+    "generated_answer": "Answer: Alexander Graham Bell is credited with inventing the telephone. He was awarded the first patent for it on March 7, 1876.",
+    "faithfulness": 0.8296296296296295,
+    "answer_relevancy": 0.29166666666666663,
+    "hallucination": 0.5651515151515151,
+    "latency_ms": 1176.6948699951172
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is DNA?",
+    "ground_truth": "DNA (deoxyribonucleic acid) is a double-helix molecule made of four bases (A, G, C, T) that carries genetic instructions.",
+    "generated_answer": "DNA is a molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known organisms. It is made up of two strands that wind around each other to form a double helix.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.16666666666666666,
+    "hallucination": 0.25,
+    "latency_ms": 1652.750015258789
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the capital of Australia?",
+    "ground_truth": "The capital of Australia is Canberra, not Sydney or Melbourne.",
+    "generated_answer": "Canberra is the capital of Australia. It was purpose-built to serve as the nation's capital, chosen as a compromise between Sydney and Melbourne when Australia became a federation in 1901.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5,
+    "hallucination": 0.25,
+    "latency_ms": 1483.691930770874
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "How does the immune system fight viruses?",
+    "ground_truth": "The immune system fights viruses via innate (immediate, non-specific) and adaptive (specific) responses. B cells make antibodies, T cells destroy infected cells.",
+    "generated_answer": "The immune system fights viruses through two main mechanisms: the innate immune response, which provides immediate non-specific defense and triggers inflammation, and the adaptive immune response, which involves B cells producing antibodies to neutralize the virus and T cells destroying infected cells.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.38888888888888884,
+    "hallucination": 0.6269230769230769,
+    "latency_ms": 1817.8210258483887
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is blockchain technology?",
+    "ground_truth": "Blockchain is a distributed ledger where data is stored in linked blocks secured by cryptographic hashes, making records tamper-resistant.",
+    "generated_answer": "A distributed digital ledger that records transactions across many computers so that records cannot be altered retroactively.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "hallucination": 0.14166666666666666,
+    "latency_ms": 960.576057434082
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What causes earthquakes?",
+    "ground_truth": "Earthquakes are caused by the sudden release of energy along fault lines where tectonic plates meet, creating seismic waves.",
+    "generated_answer": "The sudden release of energy in Earth's crust causes earthquakes. This energy release occurs when stress builds up along fault lines and is suddenly released, resulting in seismic waves that shake the ground.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.35000000000000003,
+    "hallucination": 0.53,
+    "latency_ms": 1436.033010482788
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the water cycle?",
+    "ground_truth": "The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and collection.",
+    "generated_answer": "The final answer is: The water cycle describes the continuous movement of water on, above, and below Earth's surface. It involves key processes such as evaporation, condensation, precipitation, and collection.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3684210526315789,
+    "hallucination": 0.5447368421052632,
+    "latency_ms": 1604.619026184082
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the difference between RAM and storage?",
+    "ground_truth": "RAM is fast short-term memory for active tasks that clears when powered off. Storage is permanent long-term memory for files.",
+    "generated_answer": "The difference between RAM and storage is that RAM is a fast, short-term memory used to store data actively being used by the computer, while storage is a slower, long-term memory that keeps data permanently.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7777777777777777,
+    "hallucination": 0.5611111111111111,
+    "latency_ms": 1670.1359748840332
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "How do vaccines work?",
+    "ground_truth": "Vaccines train the immune system by exposing it to harmless versions of a pathogen, prompting memory cell creation for future protection.",
+    "generated_answer": "Answer: Vaccines work by training the immune system to recognize and fight specific pathogens through weakened or killed versions of a virus or bacteria, or genetic instructions that create a recognizable protein. This triggers the creation of memory cells, allowing for a faster response if exposed to the real pathogen later.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.21875,
+    "hallucination": 0.5125,
+    "latency_ms": 2205.5211067199707
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is gravity?",
+    "ground_truth": "Gravity is the fundamental force attracting objects with mass toward each other, described by Newton as proportional to mass and by Einstein as spacetime curvature.",
+    "generated_answer": "Answer: Gravity is a fundamental force of nature that attracts objects with mass toward each other. It was described by Isaac Newton as a force proportional to mass and inversely proportional to distance squared, and later by Einstein as a curvature of spacetime.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.1590909090909091,
+    "hallucination": 0.3136363636363636,
+    "latency_ms": 1958.7950706481934
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is inflation in economics?",
+    "ground_truth": "Inflation is the rate of price increases over time, measured by CPI, which erodes purchasing power. Central banks control it via interest rates.",
+    "generated_answer": "Answer: Inflation is the rate at which the general level of prices for goods and services rises over time, eroding purchasing power. It is measured by the Consumer Price Index (CPI).",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.17500000000000002,
+    "hallucination": 0.3236842105263158,
+    "latency_ms": 1625.1530647277832
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is the greenhouse effect?",
+    "ground_truth": "The greenhouse effect is when greenhouse gases like CO2 trap heat from Earth's surface, warming the planet. Human activities have intensified this.",
+    "generated_answer": "The greenhouse effect is a natural process that warms Earth's surface. It occurs when sunlight passes through the atmosphere and is warmed by the ground, which then emits heat that is absorbed by greenhouse gases like CO2, methane, and water vapor.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3181818181818182,
+    "hallucination": 0.37727272727272726,
+    "latency_ms": 1950.166940689087
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "How does the internet work?",
+    "ground_truth": "The internet connects computers globally via TCP/IP protocols. Data is sent as packets through routers. The Web is one service running on it using HTTP.",
+    "generated_answer": "Answer: The internet works by breaking down data into small packets and sending them via routers across networks using the TCP/IP protocol suite, allowing devices to communicate with each other through their unique IP addresses. This enables the transmission of information between devices on the global network.",
+    "faithfulness": 0.8784313725490195,
+    "answer_relevancy": 0.10294117647058823,
+    "hallucination": 0.9287878787878787,
+    "latency_ms": 2102.231025695801
+  },
+  {
+    "strategy": "RAG + structured reasoning",
+    "question": "What is Newton's second law of motion?",
+    "ground_truth": "Newton's second law states F = ma: force equals mass times acceleration.",
+    "generated_answer": "Answer: Newton's second law of motion states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. It is expressed as the equation F = ma, where F is force in Newtons, m is mass in kilograms, and a is acceleration in meters per second squared.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6363636363636364,
+    "hallucination": 0.3136363636363636,
+    "latency_ms": 2612.9751205444336
+  }
+]

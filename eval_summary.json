@@ -1,0 +1,37 @@
+{
+  "Zero-shot (baseline)": {
+    "avg_faithfulness": 0.643,
+    "avg_answer_relevancy": 0.403,
+    "avg_hallucination": 0.816,
+    "avg_latency_ms": 1634.4,
+    "sample_count": 20
+  },
+  "Few-shot examples": {
+    "avg_faithfulness": 0.523,
+    "avg_answer_relevancy": 0.416,
+    "avg_hallucination": 0.784,
+    "avg_latency_ms": 1148.6,
+    "sample_count": 20
+  },
+  "RAG (context provided)": {
+    "avg_faithfulness": 0.801,
+    "avg_answer_relevancy": 0.289,
+    "avg_hallucination": 0.251,
+    "avg_latency_ms": 1036.0,
+    "sample_count": 20
+  },
+  "Chain-of-thought": {
+    "avg_faithfulness": 0.763,
+    "avg_answer_relevancy": 0.305,
+    "avg_hallucination": 0.725,
+    "avg_latency_ms": 4027.7,
+    "sample_count": 20
+  },
+  "RAG + structured reasoning": {
+    "avg_faithfulness": 0.96,
+    "avg_answer_relevancy": 0.393,
+    "avg_hallucination": 0.382,
+    "avg_latency_ms": 1588.9,
+    "sample_count": 20
+  }
+}
